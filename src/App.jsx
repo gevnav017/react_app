@@ -16,7 +16,9 @@ function App() {
           })
         }
 
-        <div>{ featPupId && <p>{ featPupId }</p> }</div>
+        <div>
+          { featPupId && <p>{ featPupId }</p> }
+        </div>
       </div>
     </>
   )
